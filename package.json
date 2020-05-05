@@ -1,0 +1,23 @@
+{
+  "name": "geometry-mistifiedwarrior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionofshivi/geometry-mistifiedwarrior.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visionofshivi/geometry-mistifiedwarrior/issues"
+  },
+  "homepage": "https://github.com/visionofshivi/geometry-mistifiedwarrior#readme"
+}
