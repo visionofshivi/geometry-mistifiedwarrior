@@ -32,7 +32,14 @@ describe('Circle', () => {
   describe('Area', () => {
     it('Should calculate the area of the circle', () => {
       const circle = new Circle({x: 0, y: 0}, 5);
-      assert.strictEqual(circle.area, 78.5);
+      assert.approximately(circle.area, 78.5, 0.1);
+    });
+  });
+
+  describe('Perimeter', () => {
+    it('Should calculate the perimeter', () => {
+      const circle = new Circle({x: 0, y: 0}, 5);
+      assert.approximately(circle.perimeter, 31.4, 0.1);
     });
   });
 });

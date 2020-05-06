@@ -15,7 +15,10 @@ class Circle {
     return areCenterEquals && areRadiusEquals;
   }
   get area() {
-    return 3.14 * this.radius ** 2;
+    return Math.PI * this.radius ** 2;
+  }
+  get perimeter() {
+    return Math.PI * (this.radius * 2);
   }
 }
 
