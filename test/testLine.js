@@ -66,7 +66,7 @@ describe('Line', () => {
     });
   });
 
-  describe('mid-point of tje Line', () => {
+  describe('mid-point of the Line', () => {
     it('Should gives the mid-point of the y line ', () => {
       const line = new Line({x: 0, y: 0}, {x: 6, y: 4});
       assert.strictEqual(line.midPoint, (3, 2));
