@@ -14,6 +14,9 @@ class Circle {
     const areRadiusEquals = this.radius == circle.radius;
     return areCenterEquals && areRadiusEquals;
   }
+  get area() {
+    return 3.14 * this.radius ** 2;
+  }
 }
 
 module.exports = {Circle};

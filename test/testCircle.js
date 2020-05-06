@@ -28,4 +28,11 @@ describe('Circle', () => {
       assert.isFalse(circle.isEqualTo(circle1));
     });
   });
+
+  describe('Area', () => {
+    it('Should calculate the area of the circle', () => {
+      const circle = new Circle({x: 0, y: 0}, 5);
+      assert.strictEqual(circle.area, 78.5);
+    });
+  });
 });
