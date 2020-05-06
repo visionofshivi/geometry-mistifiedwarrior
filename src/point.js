@@ -12,6 +12,12 @@ class Point {
   findDistance(point) {
     return Math.hypot(this.x - point.x, this.y - point.y);
   }
+  clone() {
+    return new Point(this.x, this.y);
+  }
+  visit(operation) {
+    return operation(this.x, this.y);
+  }
 }
 
 module.exports = {Point};

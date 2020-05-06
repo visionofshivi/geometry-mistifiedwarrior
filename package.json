@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/visionofshivi/geometry-mistifiedwarrior/issues"
   },
-  "homepage": "https://github.com/visionofshivi/geometry-mistifiedwarrior#readme"
+  "homepage": "https://github.com/visionofshivi/geometry-mistifiedwarrior#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
 }
